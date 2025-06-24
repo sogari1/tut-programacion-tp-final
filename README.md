@@ -1,1 +1,5 @@
-# tut-programacion-tp-final
+# Integrantes:
+- Adrian Colmegna 
+- Ursula Muñoz
+- Ricardo Daniel Orellana
+- Ignacio Sogaray
