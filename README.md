@@ -19,7 +19,7 @@ Este proyecto final incluye diez programas esenciales que aplican distintos conc
 - *Promediador:* Calcula el promedio de varios números, ignorando un valor negativo final.
 - *Contador de Vocales:* Cuenta vocales en un texto, diferenciando mayúsculas y minúsculas.
 - *Inversor de Texto:* Invierte frases o palabras.
-- *Suma de Matrices:* Suma dos matrices predefinidas.
+- *Suma de Matrices:* Suma dos matrices definidas por el usuario.
 - *Área de Triángulo:* Calcula el área con base y altura ingresadas.
 - *Tabla de Multiplicar:* Genera la tabla de un número hasta el 20.
 - *Pirámide Numérica:* Crea una pirámide de números a partir de un valor inicial.
