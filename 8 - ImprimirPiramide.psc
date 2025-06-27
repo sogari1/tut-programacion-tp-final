@@ -1,16 +1,16 @@
 Algoritmo ImprimirPiramide
 	Definir num, i, j Como Entero
 		
-	Escribir "Ingrese un número: "
+	Escribir "Ingrese un nÃºmero: "
 	Leer num
 		
 	Para i <- 1 Hasta num
-		// Imprimir el número i
+		// Imprimir el nÃºmero i
 		Para j <- 1 Hasta i
 			Escribir Sin Saltar i, " "
 		Fin Para
 		
-		Escribir ""  // Salto de línea
+		Escribir ""  // Salto de lÃ­nea
 	Fin Para
 
 FinAlgoritmo
