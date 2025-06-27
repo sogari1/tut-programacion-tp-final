@@ -5,7 +5,7 @@ Algoritmo AdivinarNumero
 	intentos <- 0
 	min <- 1
 	max <- 25
-	num <- Azar(max-min) + min
+	num <- Azar(max) + min
 	escribir "Por favor, ingresa un numero entre ",min," y ",max
 	Repetir		
 		Leer usuario
