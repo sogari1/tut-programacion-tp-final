@@ -1,9 +1,9 @@
 Algoritmo SumaDeMatrices
 	Definir filas, columnas, i, j Como Entero
 	
-    Escribir "Ingrese el número de filas: "
+    Escribir "Ingrese el nÃºmero de filas: "
     Leer filas
-    Escribir "Ingrese el número de columnas: "
+    Escribir "Ingrese el nÃºmero de columnas: "
     Leer columnas
 	
     Dimension matrizUno[filas, columnas]
