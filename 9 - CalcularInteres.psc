@@ -5,19 +5,19 @@ Algoritmo CalcularInteres
     tasa <- 0.3 
 	
     // Mostrar la tasa al usuario
-    Escribir "La tasa de interés utilizada es: ", tasa * 100, "%"
+    Escribir "La tasa de interÃ©s utilizada es: ", tasa * 100, "%"
 	
     // Solicitar datos al usuario
     Escribir "Ingrese el capital: "
     Leer capital
 	
-    Escribir "Ingrese el tiempo (en años): "
+    Escribir "Ingrese el tiempo (en aÃ±os): "
     Leer tiempo
 	
-    // Calcular el interés simple
+    // Calcular el interÃ©s simple
     interes <- capital * tasa * tiempo
 	
     // Mostrar resultado
-    Escribir "El interés simple generado es: $", interes
+    Escribir "El interÃ©s simple generado es: $", interes
 
 FinAlgoritmo
