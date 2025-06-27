@@ -1,22 +1,31 @@
 Algoritmo ContadorDeVocales
+	definir frase como cadena
+	definir letra Como Entero
+	definir contador, long Como Entero
 	
-    Definir frase, letra Como Caracter
-    Definir contadorVocales, i Como Entero
-
-    contadorVocales <- 0
-    
-	Escribir "El siguiente codigo es un contador de vocales, puede ingresar una palabra o una frase"
-    Escribir "Ingrese palabra o frase: "
-    Leer frase
-    
- 
-    Para i <- 1 Hasta Longitud(frase) Hacer
-        letra <- Subcadena(frase, i, i)
-        Si letra = "a" O letra = "A" O letra = "e" O letra = "E" O letra = "i" O letra = "I" O letra = "o" O letra = "O" O letra = "u" O letra = "U" Entonces
-            contadorVocales <- contadorVocales + 1
-        FinSi
-    FinPara
-
-    Escribir "La palabra o frase ingresada tiene ", contadorVocales, " vocales."
+	contador <- 0
+	
+	Escribir "Por favor, ingrese una frase: "
+	leer frase
+	
+	long <- Longitud(frase)
+	letra <- 1
+	Mientras letra <= long Hacer
+		segun Subcadena( frase, letra, letra) Hacer
+			"a" o "A":
+				contador = contador + 1
+			"e" o "E":
+				contador = contador + 1
+			"i" o "I":
+				contador = contador + 1
+			"o" o "O":
+				contador = contador + 1
+			"u" o "U":
+				contador = contador + 1
+				
+		FinSegun
+		letra = letra + 1
+	FinMientras
+	Escribir "la frase: " frase, " contiene " contador, " vocales"
 	
 FinAlgoritmo
